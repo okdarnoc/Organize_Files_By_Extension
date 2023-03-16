@@ -38,7 +38,7 @@ The program runs in the command prompt or terminal. The user inputs the director
 To use the program, follow these steps:
 - Open the command prompt or terminal
 - Navigate to the directory where the Python script and `file_extensions.txt` file are located
-- Type organizefilesbyextention.py 
+- Type 'organizefilesbyextention.py' 
 - Enter the directory you want to organize when prompted
 - The program will sort the files into folders based on their file type, using the `file_extensions.txt` file to determine where to move each file.
 

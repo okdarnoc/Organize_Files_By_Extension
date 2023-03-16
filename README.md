@@ -42,5 +42,11 @@ To use the program, follow these steps:
 - Enter the directory you want to organize when prompted
 - The program will sort the files into folders based on their file type, using the `file_extensions.txt` file to determine where to move each file.
 
-## `file_extensions.txt` File Format
+## What is the `file_extensions.txt` for?
 The `file_extensions.txt` file is a text file that contains a list of file extensions and their corresponding folder names, separated by a colon (":") character. Each line of the file should contain a single file extension followed by its corresponding folder name, like this:
+
+pdf:PDF
+jpg:JPEG
+jpeg:JPEG
+png:PNG
+gif:GIF

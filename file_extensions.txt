@@ -1,0 +1,95 @@
+.pdf: PDF
+.jpg: JPEG
+.jpeg: JPEG
+.png: PNG
+.gif: GIF
+.bmp: BMP
+.tiff: TIFF
+.raw: RAW
+.ai: AI
+.svg: SVG
+.psd: PSD
+.doc: DOC
+.docx: DOC
+.xls: Excel
+.xlsx: Excel
+.ppt: PowerPoint
+.pptx: PowerPoint
+.csv: CSV
+.txt: TXT
+.rtf: RTF
+.odt: ODT
+.ods: ODS
+.odp: ODP
+.mp3: MP3
+.ogg: OGG
+.m4a: M4A
+.wav: WAV
+.mp4: MP4
+.avi: AVI
+.mov: MOV
+.mkv: MKV
+.flv: FLV
+.avchd: AVCHD
+.zip: ZIP
+.rar: RAR
+.7z: 7z
+.exe: EXE
+.msi: MSI
+.dll: DLL
+.iso: ISO
+.img: IMG
+.apk: APK
+.jar: JAR
+.key: Keynote
+.py: Python
+.ipynb: Jupyter
+.html: HTML
+.css: CSS
+.js: JavaScript
+.json: JSON
+.xml: XML
+.sql: SQL
+.php: PHP
+.jsp: JSP
+.asp: ASP
+.aspx: ASP
+.jsx: JSX
+.tsx: TSX
+.cpp: C++
+.h: Header
+.c: C
+.java: Java
+.class: Java
+.cs: C#
+.vb: VB
+.sln: Visual Studio
+.gitignore: Git
+.md: Markdown
+.yml: YAML
+.jsonc: JSON
+.log: Logs
+.bak: Backup
+.ini: INI file
+.cfg: Configuration file
+.conf: Configuration file
+.db: Database
+.log: Log file
+.sh: Shell script
+.pl: Perl
+.rb: Ruby
+.java: Java source code
+.jar: Java archive
+.war: Java web application archive
+.ear: Enterprise application archive
+.so: Shared library
+.rpm: RPM package
+.deb: Debian package
+.dmg: Disk image
+.iso: CD/DVD image
+.tar: Tarball
+.gz: Gzip compressed file
+.bz2: Bzip2 compressed file
+.rar: RAR archive
+.zip: Zip archive
+.mpg: MPEG video

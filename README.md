@@ -35,6 +35,8 @@ The program is text-based and does not require installation. Simply download the
 The program runs in the command prompt or terminal. The user inputs the directory they want to organize and the program sorts the files into folders based on their file type. The `file_extensions.txt` file contains a list of file extensions and their corresponding folder names, which the program uses to determine where to move each file.
 
 ## Usage
+
+### Python Method
 To use the program, follow these steps:
 - Open the command prompt or terminal
 - Navigate to the directory where the Python script and `file_extensions.txt` file are located
@@ -42,6 +44,9 @@ To use the program, follow these steps:
 - Enter the directory you want to organize when prompted
 - - ![image](https://user-images.githubusercontent.com/37545716/225633155-a7a08993-a7d5-42b8-979e-ac25084b12d1.png)
 - The program will sort the files into folders based on their file type, using the `file_extensions.txt` file to determine where to move each file.
+
+### Windows Lazy Method
+Just like on the `organizefilesbyextention.exe` and use it. 
 
 ## What is the `file_extensions.txt` for?
 The `file_extensions.txt` file is a text file that contains a list of file extensions and their corresponding folder names, separated by a colon (":") character. Each line of the file should contain a single file extension followed by its corresponding folder name, like this:

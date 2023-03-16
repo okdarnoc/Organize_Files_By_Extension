@@ -16,6 +16,7 @@ presentation.pptx
 budget.xlsx
 photo1.jpg
 photo2.jpeg
+
 When the user runs the file organizing program and inputs the "My Files" directory, the program will automatically sort these files into separate folders based on their file type. The result will be two folders named "Documents" and "Images", with the following files inside:
 
 Documents
@@ -42,7 +43,9 @@ To use the program, follow these steps:
 - Navigate to the directory where the Python script and `file_extensions.txt` file are located
 - Type `organizefilesbyextention.py` 
 - Enter the directory you want to organize when prompted
-- ![image](https://user-images.githubusercontent.com/37545716/225633155-a7a08993-a7d5-42b8-979e-ac25084b12d1.png)
+
+![image](https://user-images.githubusercontent.com/37545716/225633155-a7a08993-a7d5-42b8-979e-ac25084b12d1.png)
+
 - The program will sort the files into folders based on their file type, using the `file_extensions.txt` file to determine where to move each file.
 
 ### Windows Lazy Method

@@ -40,13 +40,10 @@ To use the program, follow these steps:
 - Navigate to the directory where the Python script and `file_extensions.txt` file are located
 - Type `organizefilesbyextention.py` 
 - Enter the directory you want to organize when prompted
+- - ![image](https://user-images.githubusercontent.com/37545716/225633155-a7a08993-a7d5-42b8-979e-ac25084b12d1.png)
 - The program will sort the files into folders based on their file type, using the `file_extensions.txt` file to determine where to move each file.
 
 ## What is the `file_extensions.txt` for?
 The `file_extensions.txt` file is a text file that contains a list of file extensions and their corresponding folder names, separated by a colon (":") character. Each line of the file should contain a single file extension followed by its corresponding folder name, like this:
 
-pdf:PDF
-jpg:JPEG
-jpeg:JPEG
-png:PNG
-gif:GIF
+![image](https://user-images.githubusercontent.com/37545716/225633019-5d745e05-3a46-4a93-9c55-e68e9dd64833.png)

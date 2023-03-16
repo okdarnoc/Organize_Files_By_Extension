@@ -11,11 +11,11 @@ Here are some examples of how the file organizing program might work in practice
 Example 1: Organizing a directory with documents and images
 Suppose the user has a directory called "My Files" that contains the following files:
 
-report.docx
-presentation.pptx
-budget.xlsx
-photo1.jpg
-photo2.jpeg
+-report.docx
+-presentation.pptx
+-budget.xlsx
+-photo1.jpg
+-photo2.jpeg
 
 When the user runs the file organizing program and inputs the "My Files" directory, the program will automatically sort these files into separate folders based on their file type. The result will be two folders named "Documents" and "Images", with the following files inside:
 

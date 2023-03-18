@@ -28,6 +28,8 @@ Images
 - photo1.jpg
 - photo2.jpeg
 
+### How it handle duplicated files?
+In the original version of the script, if there are files with the same name in different subfolders, then the script will overwrite the files with the same name in the target folder without warning. This can lead to data loss or other issues.
 
 ## Installation
 The program is text-based and does not require installation. Simply download the Python script and the `file_extensions.txt` file and run the Python script in a Python environment.
@@ -47,6 +49,8 @@ To use the program, follow these steps:
 ![image](https://user-images.githubusercontent.com/37545716/225633155-a7a08993-a7d5-42b8-979e-ac25084b12d1.png)
 
 - The program will sort the files into folders based on their file type, using the `file_extensions.txt` file to determine where to move each file.
+
+To handle duplicated files more safely, you can modify the script to add a version number to the filename. The version number indicates that the file is a newer version of an existing file with the same name. This ensures that each file in the target folder has a unique name and avoids overwriting existing files.
 
 ## What is the `file_extensions.txt` for?
 The `file_extensions.txt` file is a text file that contains a list of file extensions and their corresponding folder names, separated by a colon (":") character. Each line of the file should contain a single file extension followed by its corresponding folder name, like this:

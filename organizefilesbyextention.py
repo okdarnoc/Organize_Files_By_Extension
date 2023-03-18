@@ -1,5 +1,6 @@
 import os
 import shutil
+import re
 
 def organize_files(directory_path):
     # Create a set of all the unique file extensions in the directory
@@ -19,15 +20,27 @@ def organize_files(directory_path):
         # Get a list of all files with the current extension
         files_to_move = [file for file in os.listdir(directory_path) if os.path.isfile(os.path.join(directory_path, file)) and os.path.splitext(file)[1].lower() == extension]
 
-        # Move each file to the corresponding folder
+        # Move each file to the corresponding folder with a version number in the filename
         for file in files_to_move:
-            shutil.move(os.path.join(directory_path, file), os.path.join(folder_path, file))
+            # Split the filename and extension
+            filename, ext = os.path.splitext(file)
+            
+            # Check if the filename already contains a version number
+            match = re.search(r'\(\d+\)$', filename)
+            if match:
+                # Increment the version number
+                version_number = int(match.group()[1:-1]) + 1
+                new_filename = f"{filename} ({version_number}){ext}"
+            else:
+                # Add the version number 1 to the filename
+                new_filename = f"{filename} (1){ext}"
+            
+            shutil.move(os.path.join(directory_path, file), os.path.join(folder_path, new_filename))
 
     # Write the extension_to_folder dictionary to a text file
     with open('file_extensions.txt', 'w') as f:
         for extension, folder in extension_to_folder.items():
             f.write(f"{extension}: {folder}\n")
-
 
 def main():
     # Prompt the user to enter the directory path
